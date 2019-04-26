@@ -10,11 +10,6 @@ from string import Template
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
-MY_ADDRESS = 'venkat.pushpak5@gmail.com'
-PASSWORD = 'gollamudi@9410!!!'
-api_key = "44ba6067-0765-4dae-a638-64841a8ee998" #Get your API key from Blot Cloud Website
-device_id  = "BOLT11691861" #Get your Bolt device ID form Bolt Cloud Website
 mybolt = Bolt(api_key, device_id)
 
 HIGH = '{"value": "1", "success": "1"}' #This will be returned by bolt API if digital read is high
